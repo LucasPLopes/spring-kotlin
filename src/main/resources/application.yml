@@ -1,0 +1,11 @@
+management:
+  endpoint:
+    httptrace:
+      enabled: true
+    health:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
